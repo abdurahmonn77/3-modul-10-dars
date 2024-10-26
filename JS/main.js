@@ -1,22 +1,25 @@
 var greeting = alert("salom, yaxshimisiz")
-var username = prompt ("bizga umuman farqi yo'q, ismingizni kiriting")
+var username = prompt ("ismingizni kiriting")
 console.log(username);
-var age = confirm("16 yoshdan kattamisiz?")
-console.log(age);
-var warning = confirm("Oldinda nima chiqishidan qat'iy nazar unga tayyormisiz?")
+var html = prompt("HTML atamasining to'liq ma'nosini yozing")
+console.log("HTML - ", html);
+var CSS = promt("CSS atamasini to'liq ma'nosini yozing:")
 console.log(warning);
-var agreement = prompt("Bu qonuniy bo'lishi uchun roziligingizni yozing:")
-console.log(agreement);
-var gameplayRule = alert("Biz sizga inkor qilish mumkin savol, yoki rozi bo'lish shart bo'lgan savollar beramiz.")
-var example = confirm("Masalan, buni inkor qilish mumkin")
-var start = alert("Ketdikmi?")
-var comfort = confirm("O'zingizni qulay his qilyapsizmi?")
-console.log("qulaylik", comfort);
-var whyYouExist = confirm("Dunyoda yashashingizdan sabab nima ekanligini o'ylab korgamisiz?")
-console.log("Overthinker", whyYouExist);
-var reason = prompt("O'sha sabab nima?(o'ylamagan bo'lsangiz ham yozing)")
-console.log("Reason to live", reason);
-var lightOut = confirm("Agar, chiroq o'chsa qo'rqib ketarmidingiz?")
-console.log("Scared", lightOut);
-var fact = alert("sizga, bir fakt aytaymi?")
-var right = confirm("siz najot ta'limda ishlaysiz yoki o'qiysiz!")
+var agreement = prompt("SASS nima uchun kerak?")
+console.log("SASS - ", agreement);
+var gameplayRule = confirm("GitHubda boshqalarni kodini korish mumkinmi?")
+console.log(gameplayRule);
+var example = prompt("Biz HTMLni nechinchi versionidan foydalanamiz?s")
+console.log("HTML version - ", example);
+var start = confirm("Live serversiz html kodlarimizni natijasini browserda kora olamizmi?")
+var comfort = prompt("Semantik kod yozishni tartib bilan sanang")
+console.log(comfort);
+var whyYouExist = prompt("Java Script kodni qay tartibda o'qiydi")
+console.log( whyYouExist);
+var reason = prompt("Synxron va Asynxron farqi nima?")
+console.log(reason);
+var lightOut = prompt("O'zgaruvchilarni yozing")
+console.log(lightOut);
+var fact = prompt("DataTypesga 3ta misol yozing")
+console.log(fact);
+var right = confirm("Test foydali bo'ldimi?")
